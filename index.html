@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>GDMP World Cup Fantasy — Bracket</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --pitch-900:#07231b;
@@ -28,12 +28,12 @@
       radial-gradient(1000px 500px at 50% -150px, rgba(255,182,39,0.09), transparent 60%),
       var(--pitch-900);
     color:var(--chalk);
-    font-family:'Inter',system-ui,sans-serif;
+    font-family:'Karla',system-ui,sans-serif;
     -webkit-font-smoothing:antialiased;
     min-height:100vh;
   }
-  .display{font-family:'Barlow Condensed',sans-serif;}
-  .mono{font-family:'Space Mono',monospace;}
+  .display{font-family:'Big Shoulders Display',sans-serif;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
 
   header{
     padding:22px 18px 14px;
@@ -41,7 +41,7 @@
     border-bottom:1px solid rgba(255,182,39,0.16);
   }
   .eyebrow{
-    font-family:'Space Mono',monospace;
+    font-family:'IBM Plex Mono',monospace;
     font-size:10.5px;
     letter-spacing:.2em;
     color:var(--amber);
@@ -49,7 +49,7 @@
     margin-bottom:6px;
   }
   h1{
-    font-family:'Barlow Condensed',sans-serif;
+    font-family:'Big Shoulders Display',sans-serif;
     font-weight:800;
     font-size:clamp(24px,7vw,34px);
     line-height:1;
@@ -68,7 +68,7 @@
 
   .hint{
     text-align:center;
-    font-family:'Space Mono',monospace;
+    font-family:'IBM Plex Mono',monospace;
     font-size:10.5px;
     color:var(--chalk-dim);
     padding:10px 12px 0;
@@ -78,13 +78,13 @@
   .bracket-wrap{
     overflow-x:auto;
     -webkit-overflow-scrolling:touch;
-    padding:18px 16px 30px;
+    padding:18px 16px 30px 58px;
   }
   .bracket-inner{position:relative;}
   .round-label{
     position:absolute;
     top:-24px;
-    font-family:'Barlow Condensed',sans-serif;
+    font-family:'Big Shoulders Display',sans-serif;
     font-weight:700;
     font-size:12.5px;
     letter-spacing:.06em;
@@ -125,7 +125,7 @@
     align-items:center;
     gap:6px;
     min-width:0;
-    font-family:'Barlow Condensed',sans-serif;
+    font-family:'Big Shoulders Display',sans-serif;
     font-weight:700;
     font-size:13.5px;
     line-height:1.3;
@@ -154,7 +154,7 @@
   .team-tag.lose{color:var(--chalk-dim);text-decoration:line-through;text-decoration-color:rgba(159,178,167,.5);}
   .team-tag.tbdtxt{color:var(--chalk-dim);font-style:normal;opacity:.55;}
   .row-store{
-    font-family:'Space Mono',monospace;
+    font-family:'IBM Plex Mono',monospace;
     font-size:9.5px;
     line-height:1.3;
     color:var(--gold);
@@ -165,7 +165,7 @@
     padding-left:20px;
   }
   .card-score{
-    font-family:'Space Mono',monospace;
+    font-family:'IBM Plex Mono',monospace;
     font-weight:700;
     font-size:13px;
     color:var(--chalk-dim);
@@ -175,7 +175,7 @@
   .card-badge{
     position:absolute;
     top:-8px; left:6px;
-    font-family:'Space Mono',monospace;
+    font-family:'IBM Plex Mono',monospace;
     font-size:8.5px;
     letter-spacing:.05em;
     padding:1px 5px;
@@ -214,9 +214,9 @@
     border-radius:99px;margin:0 auto 14px;
   }
   .sheet-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
-  .sheet-match-no{font-family:'Space Mono',monospace;font-size:11px;color:var(--chalk-dim);}
+  .sheet-match-no{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--chalk-dim);}
   .status-pill{
-    font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.06em;
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.06em;
     padding:2px 8px;border-radius:999px;text-transform:uppercase;
   }
   .status-ft{background:rgba(255,182,39,0.14);color:var(--amber);border:1px solid rgba(255,182,39,0.35);}
@@ -234,20 +234,20 @@
   .sheet-team.right{align-items:flex-end;text-align:right;}
   .sheet-flagrow{display:flex;align-items:center;gap:9px;}
   .sheet-team.right .sheet-flagrow{flex-direction:row-reverse;}
-  .sheet-country{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;line-height:1.4;text-transform:uppercase;}
+  .sheet-country{font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:18px;line-height:1.4;text-transform:uppercase;}
   .sheet-country.win{color:var(--amber);}
   .sheet-country.lose{color:var(--chalk-dim);text-decoration:line-through;text-decoration-color:rgba(159,178,167,.5);}
   .sheet-store{
-    font-family:'Space Mono',monospace;font-size:10.5px;color:var(--gold);
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--gold);
     background:rgba(231,197,101,0.1);border:1px solid rgba(231,197,101,0.25);
     padding:2px 7px;border-radius:5px;display:inline-block;
   }
   .sheet-score{
-    font-family:'Space Mono',monospace;font-weight:700;font-size:24px;
+    font-family:'IBM Plex Mono',monospace;font-weight:700;font-size:24px;
     padding:2px 8px;border-left:1px dashed rgba(244,239,226,0.25);border-right:1px dashed rgba(244,239,226,0.25);
     text-align:center;min-width:52px;
   }
-  .sheet-pens{font-family:'Space Mono',monospace;font-size:10px;color:var(--chalk-dim);text-align:center;margin-top:2px;}
+  .sheet-pens{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--chalk-dim);text-align:center;margin-top:2px;}
 
   .sheet-scorers-side{
     display:flex;flex-direction:column;gap:3px;margin-top:4px;
@@ -259,7 +259,7 @@
   }
   .scorer-line-side.right{flex-direction:row-reverse;}
   .scorer-line-side b{color:var(--chalk);font-weight:600;}
-  .scorer-line-side .min{font-family:'Space Mono',monospace;font-size:10px;color:var(--amber-dim);flex:0 0 auto;}
+  .scorer-line-side .min{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--amber-dim);flex:0 0 auto;}
 
   .sheet-scorers{
     border-top:1px dashed rgba(244,239,226,0.18);
@@ -269,12 +269,12 @@
   }
   .scorer-line{display:flex;justify-content:space-between;font-size:12.5px;color:var(--chalk-dim);}
   .scorer-line b{color:var(--chalk);font-weight:600;}
-  .scorer-line .min{font-family:'Space Mono',monospace;font-size:11px;color:var(--amber-dim);}
+  .scorer-line .min{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber-dim);}
   .sheet-venue{
-    font-family:'Space Mono',monospace;font-size:10.5px;color:var(--chalk-dim);
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--chalk-dim);
     border-top:1px solid rgba(244,239,226,0.1);padding-top:10px;
   }
-  .sheet-note{font-family:'Space Mono',monospace;font-size:11.5px;color:var(--chalk-dim);text-align:center;padding:14px 0;}
+  .sheet-note{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--chalk-dim);text-align:center;padding:14px 0;}
   .close-x{
     background:rgba(244,239,226,0.08);border:1px solid rgba(244,239,226,0.15);
     color:var(--chalk-dim);width:26px;height:26px;border-radius:50%;
@@ -282,7 +282,7 @@
   }
 
   footer{
-    text-align:center;font-family:'Space Mono',monospace;font-size:10.5px;color:var(--chalk-dim);
+    text-align:center;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--chalk-dim);
     padding:0 18px 30px;
   }
 
@@ -307,7 +307,7 @@
   .r32-tab span{
     writing-mode:vertical-rl;
     transform:rotate(180deg);
-    font-family:'Barlow Condensed',sans-serif;
+    font-family:'Big Shoulders Display',sans-serif;
     font-weight:700;
     font-size:12px;
     letter-spacing:.08em;
@@ -344,15 +344,16 @@
     display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;
   }
   .drawer-title{
-    font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:19px;
+    font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:19px;
     text-transform:uppercase;color:var(--chalk);
   }
   .drawer-title span{color:var(--amber);}
   .drawer-sub{
-    font-family:'Space Mono',monospace;font-size:10px;color:var(--chalk-dim);
+    font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--chalk-dim);
     margin:-8px 0 14px;
   }
   .drawer-card{
+    position:relative;
     background:var(--card-bg);
     border:1px solid rgba(244,239,226,0.12);
     border-radius:8px;
@@ -360,6 +361,15 @@
     cursor:pointer;
     overflow:hidden;
   }
+  .drawer-card::after{
+    content:'▾';
+    position:absolute;
+    top:8px; right:10px;
+    font-size:10px;
+    color:var(--chalk-dim);
+    transition:transform .15s ease;
+  }
+  .drawer-card.expanded::after{transform:rotate(180deg);}
   .drawer-card:active{transform:scale(0.98);}
   .drawer-row{
     display:flex;flex-direction:column;justify-content:center;
@@ -369,15 +379,15 @@
   .drawer-row-top{display:flex;align-items:center;justify-content:space-between;gap:8px;}
   .drawer-team{
     display:flex;align-items:center;gap:7px;min-width:0;
-    font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13.5px;
+    font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:13.5px;
     line-height:1.3;color:var(--chalk);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
   }
   .drawer-team.win{color:var(--amber);}
   .drawer-team.lose{color:var(--chalk-dim);text-decoration:line-through;text-decoration-color:rgba(159,178,167,.5);}
-  .drawer-score{font-family:'Space Mono',monospace;font-weight:700;font-size:13px;color:var(--chalk-dim);flex:0 0 auto;}
+  .drawer-score{font-family:'IBM Plex Mono',monospace;font-weight:700;font-size:13px;color:var(--chalk-dim);flex:0 0 auto;}
   .drawer-score.win{color:var(--amber);}
   .drawer-store{
-    font-family:'Space Mono',monospace;font-size:9px;line-height:1.3;color:var(--gold);opacity:.85;
+    font-family:'IBM Plex Mono',monospace;font-size:9px;line-height:1.3;color:var(--gold);opacity:.85;
     padding-left:25px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
   }
   .drawer-close{
@@ -385,9 +395,142 @@
     color:var(--chalk-dim);width:28px;height:28px;border-radius:50%;
     display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:15px;flex:0 0 auto;
   }
+
+  /* ---------- INLINE DRAWER MATCH DETAIL (no extra dark overlay) ---------- */
+  .drawer-card.expanded{border-color:rgba(255,182,39,0.4);}
+  .drawer-detail{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .2s ease-out;
+    background:rgba(4,15,11,0.35);
+    border-top:1px dashed rgba(244,239,226,0.15);
+  }
+  .drawer-card.expanded .drawer-detail{max-height:220px;}
+  .drawer-detail-inner{padding:10px 12px 12px;}
+  .drawer-detail-status{
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.06em;
+    padding:2px 8px;border-radius:999px;text-transform:uppercase;display:inline-block;margin-bottom:8px;
+  }
+  .drawer-detail-scorers{display:flex;flex-direction:column;gap:4px;margin-bottom:8px;}
+  .drawer-scorer-line{display:flex;justify-content:space-between;font-family:'Karla',sans-serif;font-size:11.5px;color:var(--chalk-dim);}
+  .drawer-scorer-line b{color:var(--chalk);font-weight:600;}
+  .drawer-scorer-line .min{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--amber-dim);}
+  .drawer-detail-note{font-family:'Karla',sans-serif;font-size:11px;color:var(--chalk-dim);}
+  .drawer-detail-venue{
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--chalk-dim);
+    border-top:1px solid rgba(244,239,226,0.1);padding-top:6px;margin-top:6px;
+  }
+
+  /* ---------- VIEW TOGGLE (desktop / mobile) ---------- */
+  .view-toggle{
+    position:fixed;
+    top:14px; right:14px;
+    z-index:70;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    background:var(--card-bg);
+    border:1px solid rgba(255,182,39,0.35);
+    border-radius:999px;
+    padding:6px 12px;
+    cursor:pointer;
+    font-family:'Karla',sans-serif;
+    font-weight:600;
+    font-size:11.5px;
+    color:var(--amber);
+    box-shadow:0 2px 10px rgba(0,0,0,0.35);
+    -webkit-tap-highlight-color:transparent;
+    user-select:none;
+  }
+  .view-toggle .vt-icon{font-size:13px;line-height:1;}
+  @media (max-width:420px){
+    .view-toggle{padding:7px 9px;}
+    #vtLabel{display:none;}
+  }
+
+  /* ---------- MOBILE VIEW ---------- */
+  #mobileView{display:none;}
+  body.mobile-mode .bracket-wrap,
+  body.mobile-mode .hint,
+  body.mobile-mode .r32-tab{display:none;}
+  body.mobile-mode #mobileView{display:block;}
+
+  .mv-rounds{
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    padding:14px 14px 6px;
+    scrollbar-width:none;
+  }
+  .mv-rounds::-webkit-scrollbar{display:none;}
+  .mv-round-btn{
+    flex:0 0 auto;
+    font-family:'Big Shoulders Display',sans-serif;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    color:var(--chalk-dim);
+    background:var(--card-bg);
+    border:1px solid rgba(244,239,226,0.14);
+    border-radius:999px;
+    padding:9px 18px;
+    cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .mv-round-btn.active{
+    color:var(--pitch-900);
+    background:var(--amber);
+    border-color:var(--amber);
+  }
+  .mv-list{padding:6px 14px 90px;display:flex;flex-direction:column;gap:12px;}
+  .mv-card{
+    background:var(--card-bg);
+    border:1px solid rgba(244,239,226,0.12);
+    border-radius:12px;
+    overflow:hidden;
+    cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .mv-card.tbd{background:var(--card-bg-tbd);border-style:dashed;}
+  .mv-card.live{border-color:var(--live);box-shadow:0 0 0 1px rgba(226,72,58,0.4);}
+  .mv-card-top{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:9px 14px;border-bottom:1px solid rgba(244,239,226,0.08);
+  }
+  .mv-card-no{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--chalk-dim);}
+  .mv-team-block{padding:10px 14px 8px;}
+  .mv-team-block + .mv-team-block{border-top:1px solid rgba(244,239,226,0.08);}
+  .mv-row{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:10px;
+  }
+  .mv-team{
+    display:flex;align-items:center;gap:9px;min-width:0;
+    font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:17px;
+    line-height:1.3;color:var(--chalk);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .mv-team.win{color:var(--amber);}
+  .mv-team.lose{color:var(--chalk-dim);text-decoration:line-through;text-decoration-color:rgba(159,178,167,.5);}
+  .mv-team.tbdtxt{color:var(--chalk-dim);font-style:normal;opacity:.6;font-size:15px;}
+  .mv-score{font-family:'IBM Plex Mono',monospace;font-weight:700;font-size:17px;color:var(--chalk-dim);flex:0 0 auto;}
+  .mv-score.win{color:var(--amber);}
+  .mv-store{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);opacity:.85;
+    padding-left:29px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .mv-empty{
+    text-align:center;font-family:'Karla',sans-serif;font-size:13px;color:var(--chalk-dim);padding:30px 20px;
+  }
 </style>
 </head>
 <body>
+
+<div class="view-toggle" id="viewToggle">
+  <span class="vt-icon" id="vtIcon">📱</span>
+  <span id="vtLabel">Mobile view</span>
+</div>
 
 <div class="r32-tab" id="r32Tab">
   <span>Round of 32</span>
@@ -414,6 +557,11 @@
 
 <div class="bracket-wrap">
   <div class="bracket-inner" id="bracketInner"></div>
+</div>
+
+<div id="mobileView">
+  <div class="mv-rounds" id="mvRounds"></div>
+  <div class="mv-list" id="mvList"></div>
 </div>
 
 <footer>Round of 32 complete · Round of 16 kicks off Sat 4 Jul · GDMP internal use</footer>
@@ -791,17 +939,37 @@ function drawerRowHtml(m, team, side){
   </div>`;
 }
 
+// Score details now expand inline, in place, inside the drawer itself —
+// no second dark overlay stacking on top of the drawer's own backdrop.
+function drawerDetailHtml(m){
+  const pillCls = m.status==='LIVE' ? 'status-live' : (m.status==='SCHEDULED'||m.status==='TBD' ? 'status-sched' : 'status-ft');
+  const pillText = m.status==='LIVE' ? 'Live' : (m.status==='SCHEDULED' ? 'Upcoming' : (m.status==='TBD' ? 'Waiting on earlier rounds' : m.status));
+  const scorersHtml = (m.scorers && m.scorers.length)
+    ? `<div class="drawer-detail-scorers">${m.scorers.map(sc=>`
+        <div class="drawer-scorer-line"><span><b>${sc[1]}</b> <span style="opacity:.55">(${cd(sc[0])})</span></span><span class="min">${sc[2]}</span></div>
+      `).join('')}</div>`
+    : `<div class="drawer-detail-note">${!m.home || !m.away ? 'Waiting on earlier results to confirm this matchup.' : 'Not played yet.'}</div>`;
+  return `<div class="drawer-detail-inner">
+    <span class="drawer-detail-status ${pillCls}">${pillText}</span>
+    ${scorersHtml}
+    <div class="drawer-detail-venue">${m.date || ''}${m.venue ? ' · '+m.venue : ''}</div>
+  </div>`;
+}
+
 ROUNDS[0].entries.forEach((m,i)=>{
   drawerList.innerHTML += `<div class="drawer-card" data-idx="${i}">
-    ${drawerRowHtml(m, m.home, 'home')}
-    ${drawerRowHtml(m, m.away, 'away')}
+    <div class="drawer-card-rows">
+      ${drawerRowHtml(m, m.home, 'home')}
+      ${drawerRowHtml(m, m.away, 'away')}
+    </div>
+    <div class="drawer-detail">${drawerDetailHtml(m)}</div>
   </div>`;
 });
 
 drawerList.addEventListener('click', e=>{
   const card = e.target.closest('.drawer-card');
   if(!card) return;
-  openSheet(0, parseInt(card.dataset.idx));
+  card.classList.toggle('expanded');
 });
 
 function openDrawer(){ drawer.classList.add('open'); drawerOverlay.classList.add('open'); }
@@ -809,6 +977,95 @@ function closeDrawer(){ drawer.classList.remove('open'); drawerOverlay.classList
 r32Tab.addEventListener('click', openDrawer);
 document.getElementById('closeDrawer').addEventListener('click', closeDrawer);
 drawerOverlay.addEventListener('click', closeDrawer);
+
+// ================= MOBILE VIEW =================
+const mvRoundsEl = document.getElementById('mvRounds');
+const mvListEl = document.getElementById('mvList');
+let mvActive = 1; // default to Round of 16, matching the desktop canvas's default focus
+
+ROUNDS.forEach((rnd, i)=>{
+  const btn = document.createElement('button');
+  btn.className = 'mv-round-btn' + (i===mvActive ? ' active' : '');
+  btn.textContent = rnd.label;
+  btn.dataset.idx = i;
+  mvRoundsEl.appendChild(btn);
+});
+
+function mvRowHtml(m, team, side, winnerSide){
+  if(!team){
+    return `<div class="mv-team-block"><div class="mv-row"><span class="mv-team tbdtxt">To be confirmed</span></div></div>`;
+  }
+  const cls = winnerSide ? (winnerSide===side?'win':'lose') : '';
+  const scoreCls = winnerSide===side ? 'win' : '';
+  const scoreVal = m.score ? m.score[side==='home'?0:1] : '';
+  return `<div class="mv-team-block">
+    <div class="mv-row">
+      <span class="mv-team ${cls}">${fl(team,20,14)}${team}</span>
+      <span class="mv-score ${scoreCls}">${scoreVal}</span>
+    </div>
+    <div class="mv-store">${st(team)}</div>
+  </div>`;
+}
+
+function mvCardHtml(m, r, i){
+  let winnerSide = null;
+  if(m.score){
+    if(m.score[0]===m.score[1]) winnerSide = m.pens ? (m.pens[0]>m.pens[1]?'home':'away') : null;
+    else winnerSide = m.score[0]>m.score[1] ? 'home' : 'away';
+  }
+  const isTbd = !m.home || !m.away;
+  const liveCls = m.status==='LIVE' ? ' live' : '';
+  return `<div class="mv-card${isTbd?' tbd':''}${liveCls}" data-round="${r}" data-idx="${i}">
+    <div class="mv-card-top">
+      <span class="mv-card-no">Match ${m.no}</span>
+      ${statusPillHtml(m.status)}
+    </div>
+    ${mvRowHtml(m, m.home, 'home', winnerSide)}
+    ${mvRowHtml(m, m.away, 'away', winnerSide)}
+  </div>`;
+}
+
+function renderMobileList(idx){
+  mvActive = idx;
+  [...mvRoundsEl.children].forEach(b=> b.classList.toggle('active', parseInt(b.dataset.idx)===idx));
+  const rnd = ROUNDS[idx];
+  mvListEl.innerHTML = rnd.entries.length
+    ? rnd.entries.map((m,i)=> mvCardHtml(m, idx, i)).join('')
+    : `<div class="mv-empty">No matches yet for this round.</div>`;
+}
+renderMobileList(mvActive);
+
+mvRoundsEl.addEventListener('click', e=>{
+  const btn = e.target.closest('.mv-round-btn');
+  if(!btn) return;
+  renderMobileList(parseInt(btn.dataset.idx));
+});
+mvListEl.addEventListener('click', e=>{
+  const card = e.target.closest('.mv-card');
+  if(!card) return;
+  openSheet(parseInt(card.dataset.round), parseInt(card.dataset.idx));
+});
+
+// ================= DESKTOP / MOBILE TOGGLE =================
+const viewToggle = document.getElementById('viewToggle');
+const vtIcon = document.getElementById('vtIcon');
+const vtLabel = document.getElementById('vtLabel');
+
+function applyViewMode(mode){
+  document.body.classList.toggle('mobile-mode', mode==='mobile');
+  vtIcon.textContent = mode==='mobile' ? '🖥️' : '📱';
+  vtLabel.textContent = mode==='mobile' ? 'Desktop view' : 'Mobile view';
+  try{ localStorage.setItem('gdmpViewMode', mode); }catch(e){}
+}
+function initViewMode(){
+  let saved = null;
+  try{ saved = localStorage.getItem('gdmpViewMode'); }catch(e){}
+  applyViewMode(saved === 'mobile' ? 'mobile' : 'desktop');
+}
+viewToggle.addEventListener('click', ()=>{
+  applyViewMode(document.body.classList.contains('mobile-mode') ? 'desktop' : 'mobile');
+});
+initViewMode();
 </script>
 </body>
 </html>
